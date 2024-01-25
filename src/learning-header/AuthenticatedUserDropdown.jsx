@@ -23,7 +23,11 @@ const AuthenticatedUserDropdown = ({ intl, username }) => {
           <span className="line" />
           <span className="line" />
         </div>
-        <span data-hj-suppress className="d-none d-md-inline">
+        <Image
+          src={`${getConfig().LMS_BASE_URL}/static/indigo/images/profile.svg`}
+          alt="Image description"
+        />
+        <span data-hj-suppress className="sr-only">
           {username}
         </span>
       </Dropdown.Toggle>
