@@ -5,7 +5,6 @@ import { getConfig } from '@edx/frontend-platform';
 
 // Local Components
 import { Menu, MenuTrigger, MenuContent } from './Menu';
-import Avatar from './Avatar';
 import { LinkedLogo, Logo } from './Logo';
 
 // i18n
@@ -87,8 +86,6 @@ class MobileHeader extends React.Component {
       logoAltText,
       logoDestination,
       loggedIn,
-      avatar,
-      username,
       stickyOnMobile,
       intl,
       mainMenu,
