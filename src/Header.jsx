@@ -81,11 +81,11 @@ const Header = ({ intl }) => {
       href: config.LOGIN_URL,
       content: intl.formatMessage(messages['header.user.menu.login']),
     },
-    {
-      type: 'item',
-      href: `${config.LMS_BASE_URL}/register`,
-      content: intl.formatMessage(messages['header.user.menu.register']),
-    },
+    // {
+    //   type: 'item',
+    //   href: `${config.LMS_BASE_URL}/register`,
+    //   content: intl.formatMessage(messages['header.user.menu.register']),
+    // },
   ];
 
   const props = {
